@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<title>Sénz Style</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+<link href="https://fonts.googleapis.com/css?family=Montserrat: 100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Work+Sans: 100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+<link href="https://fonts.googleapis.com/css?family=Lora: 100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<!--Start Wrapper-->
+<div id="wrapper">
+
+<!--Start Header-->
+<header>
+
+<!--HAMBURGER-->
+<label class="toggle" for="toggle">&#9776; <span>Menu</span></label>
+<input class="toggle" id="toggle" type="checkbox">
+
+<div id="logo"><a href="index.html"><img src="image/logo-mini-gif copy.gif" alt=""/></a></div>
+	
+<nav id="topNav">
+    <ul>
+	<li id="headNavItem1"><a href="#">Account</a></li>
+	<li id="headNavItem2"><a href="#"><img src="image/download.png" alt=""/></a></li>
+    </ul>
+</nav>
+
+	
+<!-- Main Navigation-->	
+<nav id="mainNav">
+    <ul>
+    <li class="navItem"><a href="women.html">Women</a></li>
+    <li class="navItem"><a href="#">Accessories</a></li>
+    <li class="navItem"><a href="#">Sale</a></li>
+    <li class="navItem"><a href="brands.html">Our Brands</a></li>
+    <li class="navItem"><a href="about.html">About</a></li>
+    </ul>	
+</nav>
+	
+</header>	
+
+<!--Start Main Content-->
+<div id="contentProductdetail">
+
+<div id="sorterDetail">
+    <div id="navPath"><h6>Women / dress / Evening dress</h6></div>	
+</div>
+
+<div id="imageGroup">
+
+    <div id="thumbGroup">
+        <div class="thumbnail"><img src="image/fly-dress.jpg" alt=""/></div>
+        <div class="thumbnail"><img src="image/fly-dress.jpg" alt=""/></div>
+    </div>
+	
+    <div class="productImage"><img src="image/fly-dress.jpg" alt=""/></div>
+
+</div>
+
+<div id="productParameters" >
+    <h6>Picknick dress<br>355Kr</h6>
+	<div class="colorGroupDetail">
+	    <div class="circleWhite"></div>
+		<div class="circlePink"></div>
+		<div class="circleOrange"></div>
+	</div>
+	
+    <div class="popup" onclick="myFunction()">Size Chart
+
+    <div class="popupTable" id="myPopup">
+    <table id="sizeChart" >
+    <tr>
+        <th>Women</th>
+        <th>Small</th> 
+        <th>Medium</th> 
+        <th>Large</th> 
+        <th>Extra Large</th> 
+    </tr>
+    <tr>
+        <td>Bust</td>
+        <td>33"-35"</td> 
+        <td>35"-37"</td> 
+        <td>37"-39"</td> 
+        <td>39"-41"</td>
+    </tr>
+    <tr>
+        <td>Waist</td>
+        <td>26"-27"</td> 
+        <td>28"-29"</td> 
+        <td>30"-31"</td> 
+        <td>32"-33"</td>
+    </tr>
+    <tr>
+        <td>Hip</td>
+        <td>35"-36"</td> 
+        <td>37"-38"</td> 
+        <td>39"-40"</td> 
+        <td>41"-42"</td>
+    </tr>
+    </table>
+    </div>
+		
+    </div>
+
+	<div class="dropdown"><h6>Size</h6></div>
+	<div class="dropdown"><h6>Quantity</h6></div>
+	<div class="buy"><h3>ADD TO BAG</h3></div>
+	<p>Super soft, lightweight, 100% organic cotton. Long sleeve shoulder dress. Perfect for everyday casual or a day out.</p>
+    	
+</div>
+
+</div>
+
+<!--Footer Divider-->
+<hr>
+
+<!--Start Footer-->
+<footer>
+	
+<nav id="footerNav">
+	<ul>
+    <li class="centerAlign" id="footNavItem1"><a href="#">Shipping & Returns</a></li>
+    <li class="centerAlign"><a href="#">Company</a></li>
+	</ul>
+</nav>	
+	
+</footer>
+	
+<!--End Wrapper-->
+</div>	
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+// When on mobile, resize size chart 
+function popWidth(x) {
+    if (x.matches) { // If media query matches
+        document.getElementById("sizeChart").style.width = "350px";
+    } else {
+        document.getElementById("sizeChart").style.width = "400px";
+    }
+}
+
+var x = window.matchMedia("(max-width: 768px)")
+popWidth(x) // Call listener function at run time
+x.addListener(popWidth) // Attach listener function on state changes
+
+
+
+</script>
+	
+</body>
+</html>
