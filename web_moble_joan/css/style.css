@@ -202,19 +202,19 @@ header {margin: 0px auto 20px auto;}
 
 
 /*////Product Detail////*/
-#contentProductDetail {margin-bottom: 50px;}
+#contentproductdetail {margin-bottom: 50px;}
 
-#sorterDetail {width: 100%; margin: 0px auto 5px;}
+#sorterdetail {width: 100%; margin: 0px auto 5px;}
 
-#imageGroup {display: block; width: 100%; margin: 0px auto 5px;}
+#imagegroup {display: block; width: 100%; margin: 0px auto 5px;}
 
-#thumbGroup {disply: none;}
+#thumbgroup {disply: none;}
 
 .thumbnail { display: none;}
 
 .productImage {width: 100%;}
 
-#productParameters {display: block; width: 100%;}
+#productparameters {display: block; width: 100%;}
 
 .colorGroupDetail {display: block; width: 100%;padding-bottom: 5px; margin: 15px auto 15px;}
 
@@ -225,17 +225,17 @@ header {margin: 0px auto 20px auto;}
 
 /*////Sale(Product Category)////*/
 
-#contentProduct {margin-bottom: 50px;}
+#contentproduct {margin-bottom: 50px;}
 
-#sorterCategory {text-align: center;}
+#sortercategory {text-align: center;}
 
-#navPath {display: block; margin-bottom: 5px;}
+#navpath {display: block; margin-bottom: 5px;}
 
-#sortBy {display: block; margin-bottom: 5px;}
+#sortby {display: block; margin-bottom: 5px;}
 
-#refineSearch {display: none;}
+#refinesearch {display: none;}
 
-#productCategory {width: 100%;}
+#productcategory {width: 100%;}
 
 .productRow {background-color: white;}
 
@@ -261,9 +261,9 @@ header {margin: 0px auto 20px auto;}
 
 .productImage {width: 100%;}
 
-#productParameters {display: block; width: 100%;}
+#productparameters {display: block; width: 100%;}
 
-.colorGroupDetail {display: block; width: 100%;padding-bottom: 5px; margin: 15px auto 15px;}
+.colorgroupdetail {display: block; width: 100%;padding-bottom: 5px; margin: 15px auto 15px;}
 
 .dropdown {display: block; padding: 2px; border: solid 1px black; text-align: left; margin-bottom: 15px;}
 
@@ -273,13 +273,13 @@ header {margin: 0px auto 20px auto;}
 
 #contentBrands {width: 100%; margin-bottom: 50px;}
 	
-#brandImageContainer{width: 100%; margin: 0px auto 40px;}
+#brandimagecontainer{width: 100%; margin: 0px auto 40px;}
 
 #fairTradeImage {display: block; }
 
-#brandCopyContainer {display: block; height: 256px; background-color: #000000;}
+#brandcopycontainer {display: block; height: 256px; background-color: #000000;}
 	
-#brandCopy {padding: 15px; text-align: justify; line-height: 1.3; letter-spacing: .5px;}
+#brandcopy {padding: 15px; text-align: justify; line-height: 1.3; letter-spacing: .5px;}
 
 .brandLogoRow {height: 482px; margin-bottom: 20px;}
 	
@@ -296,7 +296,7 @@ header {margin: 0px auto 20px auto;}
 	
 #aboutCopy {padding: 20px; text-align: justify;}
 
-#aboutFilm{display: block; width: 100%; margin: 0px auto;padding: 0;}
+#aboutFilm{display: round; width: 100%; margin: 0px auto;padding: 0;}
 
 .aboutIcon {display: inline-block; position: relative; width: 40%; margin-right: 1%;  }
 	
