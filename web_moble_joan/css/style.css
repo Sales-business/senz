@@ -296,7 +296,7 @@ header {margin: 0px auto 20px auto;}
 	
 #aboutCopy {padding: 20px; text-align: justify;}
 
-#aboutFilm{display: block; width: 100%; margin: auto;padding: 0;}
+#aboutFilm{display: block; width: 100%; align-items: center; margin: 0;}
 
 .aboutIcon {display: inline-block; position: relative; width: 40%; margin-right: 1%;  }
 	
